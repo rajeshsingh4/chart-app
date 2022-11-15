@@ -12,8 +12,6 @@ function Graph() {
     err: false,
   });
 
-  //const urlToFetch = "http://localhost:3000/getgpdata"; //https://my.api.mockaroo.com/graph.json?key=158c1970
-
   const { REACT_APP_GRAPH_URL } = process.env;
 
   const [chartLabel] = useState("Novatris Project");
