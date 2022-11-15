@@ -9,6 +9,7 @@ export interface IGraphDataList {
  }
 
  export interface IApiCall{
-    error: null|false|true,
+    err: false|true,
     isLoaded: false|true
  }
+
