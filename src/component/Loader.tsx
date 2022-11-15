@@ -1,6 +1,6 @@
 function Loader() {
   return (
-    <div className="Loader">
+    <div className="LoaderBlock">
      Loading...
     </div>
   );
