@@ -25,7 +25,7 @@ function Graph() {
           setApiResponse({ ...apiResponse, isLoaded: true });
           setGraphData(data);
         })
-        .catch((err: any) => {
+        .catch((err) => {
           setApiResponse({ ...apiResponse, err: err, isLoaded: true });
         });
   }, [apiResponse.isLoaded, REACT_APP_GRAPH_URL]);
